@@ -15,7 +15,5 @@ public class cube : MonoBehaviour
     {
         transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * 2f, 
             0, Input.GetAxis("Vertical") * Time.deltaTime *2f);
-
-        Overlay.UpdatePos(transform.position.x);
     }
 }
